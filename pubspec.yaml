@@ -25,6 +25,7 @@ dependencies:
   uuid: ^4.3.1
   
   cupertino_icons: ^1.0.6
+  responsive_grid: ^2.4.4
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +41,16 @@ flutter:
     # CORRECTION: Si vous utilisez cette ligne, vous devez créer le dossier 'assets/images/'
     - assets/images/
     
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Ajoutez cette ligne pour la gestion des requêtes HTTP
+  http: ^0.13.3 
+  # Note: la version peut être plus récente que 0.13.3 si vous utilisez une version récente de Flutter.
+  # La version avec le caret (^) prend la dernière version compatible.
+
+  
   # fonts:
   #   - family: Schyler
   #     fonts:
